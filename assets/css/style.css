@@ -107,6 +107,40 @@ hr{
     margin-right: 25px;
 }
 
+.slimcontainer{
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    padding: 20px;
+    position: relative;
+    float: left;
+    height: 175px;
+    width: 175px;
+    margin: 20px;
+}
+
+.wrapper img{
+    width: 175px;
+    height: 175px;
+}
+
+span{
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    width: 175px;
+    bottom: 30px;
+    left: 20px;
+    z-index: 5;
+
+}
+
 .clearFix::after{
     content: "";
     display: block;
