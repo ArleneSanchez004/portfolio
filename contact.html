@@ -9,24 +9,39 @@
 
     <body>
         <header>
-            <h1>Arlene Sanchez</h1>
-            <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+            <div class="container clearfix">
+            
+                <h3 class="myname">Arlene Sanchez</h3>
+                    <nav>
+                        <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a
+                            href="contact.html">Contact</a>
+                    </nav>
+                
+            </div>
         </header>
         
-        <h2>Contact</h2>
-        
-        <form>
-            Name <br>
-            <input type="text" name="contactName">
-            <br><br>
-            Email <br>
-            <input type="text" name="contactEmail">
-            <br><br>
-            Message <br>
-            <textarea name="message" rows="10" cols="60"></textarea>
-            <br><br><br>
-            <input type="submit">
+        <main class="container">
+            <h3 class="pagetitle">Contact</h3>
+            <hr>
+            
+            <form>
+                <br>
+                Name <br>
+                <input type="text" name="contactName">
+                <br><br>
+                Email <br>
+                <input type="text" name="contactEmail">
+                <br><br>
+                Message <br>
+                <textarea name="message" rows="10" cols="60"></textarea>
+                <br><br><br>
+                <input class="submit" type="submit"></form>
 
-        </form>
+            </form>
+        </main>
+
+        <footer>
+                <p>Copyright &copy;</p>
+        </footer>
 
     </body>
